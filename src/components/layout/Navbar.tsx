@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { ShoppingBag, Menu } from 'lucide-react';
+import NavLink from '../shared/NavLink';
 
 export function Navbar() {
   return (
-    <header className="relative w-full border-b border-[#FFE800] bg-transparent py-4 px-6 md:px-12">
+    <header className="  w-full border-b border-[#FFE800] bg-transparent py-4 px-6 md:px-12">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         {/* Left: Brand Logo */}
         <Link
@@ -18,40 +19,15 @@ export function Navbar() {
 
         {/* Center: Navigation Links */}
         <nav className="hidden items-center gap-8 md:flex">
-          <Link
-            href="/"
-            className="text-sm font-medium text-white transition-colors hover:text-[#CCFF00]"
-          >
-            Home
-          </Link>
-          <Link
-            href="/courses"
-            className="text-sm font-medium text-white/90 transition-colors hover:text-[#CCFF00]"
-          >
-            Courses
-          </Link>
-          <Link
-            href="/creators"
-            className="text-sm font-medium text-white/90 transition-colors hover:text-[#CCFF00]"
-          >
-            Creators
-          </Link>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/courses">Courses</NavLink>
+          <NavLink href="/creators">Creators</NavLink>
         </nav>
 
         {/* Right: Actions */}
         <div className="flex items-center gap-6">
-          <Link
-            href="/login"
-            className="hidden text-sm font-medium text-white transition-colors hover:text-[#CCFF00] sm:block"
-          >
-            Sign In
-          </Link>
-          <Link
-            href="/register"
-            className="hidden text-sm font-medium text-white transition-colors hover:text-[#CCFF00] sm:block"
-          >
-            Join Us
-          </Link>
+          <NavLink href="/login">Sign In</NavLink>
+          <NavLink href="/register">Join Us</NavLink>
           <button
             type="button"
             className="flex h-9 w-9 items-center justify-center text-white transition-colors hover:text-[#CCFF00]"

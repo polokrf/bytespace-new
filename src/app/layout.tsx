@@ -35,14 +35,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         inter.variable,
       )}
     >
-      <body className="min-h-full flex flex-col">
-        <header className=" border border-[#FFE800] bg-[#003BE2]">
+      <body className="min-h-full flex flex-col relative">
+        <header className=" border border-[#FFE800] bg-[#003BE2] sticky top-0 z-100">
           <Navbar />
         </header>
         <div className=" flex-1">{children}</div>
 
         <footer>
-          <Footer/>
+          <Footer />
         </footer>
       </body>
     </html>
