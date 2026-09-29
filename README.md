@@ -175,7 +175,7 @@ included.
 
 MERN Stack Developer
 
-GitHub: `YOUR_GITHUB_PROFILE_URL`
+GitHub: https://github.com/polokrf
 
 ## 📄 Assessment
 
