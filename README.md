@@ -1,36 +1,186 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ByteSpace New --- Frontend Assessment
 
-## Getting Started
+A responsive recreation of the **ByteSpace New** website based on the
+provided Figma design.
 
-First, run the development server:
+## 🔗 Links
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+-   **Live Website:** `YOUR_VERCEL_URL`
+-   **GitHub Repository:** `YOUR_GITHUB_REPOSITORY_URL`
+-   **Figma Design:**
+    https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website
+
+## 📌 Project Overview
+
+This project was developed as part of the **Jr. Software Engineer
+(Frontend)** assessment.
+
+The goal was to recreate the ByteSpace landing page from the provided
+Figma design with a focus on responsive UI, reusable components, clean
+code, and modern frontend practices.
+
+The project includes the complete landing page along with **Login** and
+**Register** pages.
+
+## ✨ Features
+
+### Landing Page
+
+-   Responsive navigation
+-   Hero section
+-   Course-focused sections
+-   Creator-focused sections
+-   Statistics and feature sections
+-   Creator CTA section
+-   Responsive footer
+-   Mobile, tablet, and desktop layouts
+
+### Authentication Pages
+
+-   Login page
+-   Register page
+-   Responsive authentication UI
+-   Clean form interface
+-   Navigation between Login and Register pages
+
+## 🛠️ Technologies Used
+
+-   **Next.js**
+-   **TypeScript**
+-   **React**
+-   **Tailwind CSS**
+-   **shadcn/ui**
+-   **Lucide React**
+-   **Next/Image**
+
+## 📁 Project Structure
+
+``` text
+src/
+├── app/
+│   ├── page.tsx
+│   ├── login/
+│   │   └── page.tsx
+│   ├── register/
+│   │   └── page.tsx
+│   └── globals.css
+│
+├── components/
+│   └── ui/
+│
+├── modules/
+│   └── home/
+│       └── components/
+│           ├── Hero/
+│           ├── GrowthAndCreator/
+│           ├── CreatorCTA/
+│           └── ...
+│
+└── lib/
+    └── utils.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Clone the repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+``` bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
-## Learn More
+### 2. Navigate to the project
 
-To learn more about Next.js, take a look at the following resources:
+``` bash
+cd YOUR_PROJECT_NAME
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Install dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+``` bash
+npm install
+```
 
-## Deploy on Vercel
+### 4. Start the development server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+``` bash
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open `http://localhost:3000` in your browser.
+
+## 📦 Production Build
+
+``` bash
+npm run build
+```
+
+Then:
+
+``` bash
+npm start
+```
+
+## 📱 Responsive Design
+
+The website is designed for:
+
+-   Mobile devices
+-   Tablets
+-   Laptops
+-   Desktop screens
+
+Layouts, typography, spacing, images, cards, and decorative elements
+adapt to different viewport sizes.
+
+## 🎨 Design Implementation
+
+The UI was implemented based on the provided Figma reference.
+
+Attention was given to:
+
+-   Typography hierarchy
+-   Section spacing
+-   Colors
+-   Rounded cards
+-   Decorative shapes
+-   Responsive positioning
+-   CTA buttons
+-   Course and creator visual elements
+
+## 🧩 Component Architecture
+
+The landing page is divided into reusable components instead of placing
+the entire page in a single component.
+
+This makes the project easier to maintain, debug, reuse, and extend.
+
+## 🔐 Login & Register
+
+Login and Register pages are implemented as frontend UI pages for this
+assessment.
+
+No production authentication backend or database integration is
+included.
+
+## 📝 Notes
+
+-   The implementation follows the provided Figma design.
+-   External image URLs may be used for selected visual assets.
+-   The project focuses on frontend implementation and responsive UI.
+-   Authentication is UI-only for this assessment.
+
+## 👨‍💻 Author
+
+**Polok Kumar**
+
+MERN Stack Developer
+
+GitHub: `YOUR_GITHUB_PROFILE_URL`
+
+## 📄 Assessment
+
+**Position:** Jr. Software Engineer (Frontend)
+
+**Tracking ID:** `04ce7e91-9658-477c-9355-a4827707f72c`
+
+**Deadline:** October 01, 2026
