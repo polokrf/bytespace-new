@@ -6,7 +6,7 @@ provided Figma design.
 ## 🔗 Links
 
 -   **Live Website:** https://bytespace-new-one.vercel.app/
--   **GitHub Repository:** `https://github.com/polokrf/bytespace-new.git`
+-   **GitHub Repository:** https://github.com/polokrf/bytespace-new.git
 -   **Figma Design:**
     https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=0-1&p=f&t=eQOrqJmq6rMG5b6L-0
 
