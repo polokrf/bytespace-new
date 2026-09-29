@@ -5,10 +5,10 @@ provided Figma design.
 
 ## 🔗 Links
 
--   **Live Website:** `YOUR_VERCEL_URL`
+-   **Live Website:** https://bytespace-new-one.vercel.app/
 -   **GitHub Repository:** `YOUR_GITHUB_REPOSITORY_URL`
 -   **Figma Design:**
-    https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website
+    https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website?node-id=0-1&p=f&t=eQOrqJmq6rMG5b6L-0
 
 ## 📌 Project Overview
 
